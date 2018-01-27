@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: EatheTech
-subtitle: 探索区块连，研究以太坊
-description: Live beautifully， dream passionately， love completely
-author: TisonKong
+title: YitaiCloud
+subtitle: 以太云
+description: learn conscientiously，live beautifully, dream passionately, love completely
+author: Tison
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://tisonkong.github.io/github.io/
-root: /github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,7 +78,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:tisonkong/github.io.git
+  repo: https://github.com/tisonkong/github.io.git
   branch: master
 
 #deploy:

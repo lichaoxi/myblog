@@ -3,10 +3,7 @@
 <span class="jiathis_txt">分享到：</span>
 <a class="jiathis_button_fav">收藏夹</a>
 <a class="jiathis_button_copy">复制网址</a>
-<a class="jiathis_button_email">邮件</a>
 <a class="jiathis_button_weixin">微信</a>
-<a class="jiathis_button_qzone">QQ空间</a>
-<a class="jiathis_button_tqq">腾讯微博</a>
 <a class="jiathis_button_douban">豆瓣</a>
 <a class="jiathis_button_share">一键分享</a>
 
