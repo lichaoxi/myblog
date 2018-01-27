@@ -74,12 +74,23 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
+# Deployment by github page
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:tisonkong/github.io.git
   branch: master
+
+#deploy:
+#  type: rsync
+#  host: 119.23.32.223
+#  user: root
+#  root: root
+#  port: 22
+#  delete: true
+#  verbose: true
+#  ignore_errors: false
+
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
@@ -88,3 +99,5 @@ plugins: hexo-generate-feed
 search:
   path: search.xml
   field: post
+  format: html
+  limit: 10000
