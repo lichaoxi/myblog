@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: AtheTech
+title: EatheTech
 subtitle: 探索区块连，研究以太坊
-description: stay hungry, stay foolish
+description: Live beautifully， dream passionately， love completely
 author: TisonKong
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://tisonkong.github.io/github.io/
+root: /github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,7 +77,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:tisonkong/github.io.git
+  branch: master
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
@@ -86,5 +88,3 @@ plugins: hexo-generate-feed
 search:
   path: search.xml
   field: post
-  format: html
-  limit: 10000
