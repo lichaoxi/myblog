@@ -1,5 +1,5 @@
 ---
-title: java基础之数据结构1
+title: java基础之数据结构1（基础篇）
 tags: Interview
 categories: Java
 copyright: true
