@@ -1,7 +1,7 @@
 ---
-title: java基础之数据结构2（Hash篇）
-tags: Interview
-categories: Java
+title: Java里必须要会的Hash
+tags: [Interview,java,数据结构]
+categories: Java Basic
 copyright: true
 ---
 ##### 1.Hashcode 的作用

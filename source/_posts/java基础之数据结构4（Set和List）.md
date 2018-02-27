@@ -1,7 +1,7 @@
 ---
-title: java基础之数据结构4（Set和List）
-tags: Interview
-categories: Java
+title: 详解Java中的Set和List
+tags: [Interview,java,数据结构]
+categories: Java Basic
 copyright: true
 ---
 #### 一、Set

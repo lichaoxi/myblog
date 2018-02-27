@@ -1,7 +1,7 @@
 ---
-title: java基础之数据结构1（基础篇）
-tags: Interview
-categories: Java
+title: java基础之数据结构（基础篇）
+tags: [Interview,java,数据结构]
+categories: Java Basic
 copyright: true
 ---
 ![java集合框架图](http://upload-images.jianshu.io/upload_images/8926909-080c94b2247e13cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

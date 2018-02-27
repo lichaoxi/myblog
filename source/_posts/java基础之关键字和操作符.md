@@ -1,7 +1,7 @@
 ---
-title: java基础之关键字和操作符
-tags: Interview
-categories: Java
+title: java关键字和操作符的总结
+tags: [Interview,java,关键字，操作符]
+categories: Java Basic
 copyright: true
 ---
 #### final,finalize,finally关键字

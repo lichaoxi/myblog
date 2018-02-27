@@ -1,7 +1,7 @@
 ---
-title: 面向对象编程（OOP）知识点总结
-tags: Interview
-categories: Java
+title: Java面向对象的一些总结
+tags: [Interview,java,面向对象]
+categories: Java Basic
 copyright: true
 ---
 #### 一.面向对象的基本概念
