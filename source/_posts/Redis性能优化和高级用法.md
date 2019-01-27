@@ -56,7 +56,7 @@ config set slowlog-log-slower-than 10000
 使用Pipeline在对Redis批量读写的时候，性能上有非常大的提升。因为管道可以在一次tcp的请求中同时发送多条命令，并且将响应结果一次性的返回给客户端。对于既定数量的命令请求，Redis管道通过减少客户端和服务器端的通信次数，来达到减少通信传输中往返时间的目的，提高效率。
 
 Pipeline示例代码，用法比较简单：
-```
+```java
 Pipeline pipelined = jedis.pipelined();
 Pipeline p = jedis.pipelined();
 /* 插入多条数据 */
