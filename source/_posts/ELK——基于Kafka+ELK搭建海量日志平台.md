@@ -7,6 +7,7 @@ copyright: true
 ![ELKB图谱](https://upload-images.jianshu.io/upload_images/8926909-33c0a0c6aa4fc9bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 早在传统的单体应用时代，查看日志大都通过SSH客户端登服务器去看，使用较多的命令就是 less 或者 tail。如果服务部署了好几台，就要分别登录到这几台机器上看，等到了分布式和微服务架构流行时代，一个从APP或H5发起的请求除了需要登陆服务器去排查日志，往往还会经过MQ和RPC调用远程到了别的主机继续处理，开发人员定位问题可能还需要根据TraceID或者业务唯一主键去跟踪服务的链路日志，基于传统SSH方式登陆主机查看日志的方式就像图中排查线路的工人一样困难，线上服务器几十上百之多，出了问题难以快速响应，因此需要高效、实时的日志存储和检索平台，ELK就提供这样一套解决方案。
+<!--more-->
 
 ![找bug的感觉](https://upload-images.jianshu.io/upload_images/8926909-d4b9e6ed7cd7b781.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
